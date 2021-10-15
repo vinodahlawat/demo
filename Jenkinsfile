@@ -11,7 +11,6 @@ pipeline{
         // stage 1. Build
         stage ('Build'){
             steps {
-                #sh 'mvn clean install package'
                 echo 'testtttt'
             }
         }
