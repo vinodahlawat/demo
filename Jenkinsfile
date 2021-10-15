@@ -1,6 +1,6 @@
 pipeline{
     //Directives
-    agent { label 'DEV'}
+    agent any
     tools {
         maven 'maven'
     }
